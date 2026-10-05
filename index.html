@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>望月麻衣様　10月5日のご相談のまとめ（障害年金・2回目）</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@500;700&family=BIZ+UDPGothic:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#EDF2F1; --paper:#FFFFFF; --ink:#22302E; --sub:#5A6B68;
+  --teal:#2E6A64; --teal-soft:#D8E8E5; --amber:#B9781F; --amber-soft:#F6EAD6;
+  --rose:#B5545B; --rose-soft:#F5DFE0; --line:#CFDCD9;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#16201F; --paper:#1F2B2A; --ink:#E4ECEA; --sub:#A3B4B1;
+    --teal:#7CC3BA; --teal-soft:#24403C; --amber:#E2A75A; --amber-soft:#3A2E1C;
+    --rose:#E08A90; --rose-soft:#3D2527; --line:#33443F;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#16201F; --paper:#1F2B2A; --ink:#E4ECEA; --sub:#A3B4B1;
+  --teal:#7CC3BA; --teal-soft:#24403C; --amber:#E2A75A; --amber-soft:#3A2E1C;
+  --rose:#E08A90; --rose-soft:#3D2527; --line:#33443F;
+}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:"BIZ UDPGothic","Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,sans-serif;
+  font-size:16px;line-height:1.75;-webkit-text-size-adjust:100%}
+.wrap{max-width:640px;margin:0 auto;padding:24px 16px 56px}
+h1,h2,h3{font-family:"Zen Maru Gothic","BIZ UDPGothic",sans-serif;font-weight:700;line-height:1.4;margin:0}
+p{margin:0 0 8px}
+b{color:var(--teal)}
+svg{display:block;max-width:100%;height:auto}
+svg text{font-family:"Zen Maru Gothic","BIZ UDPGothic",sans-serif}
+.f-teal{fill:var(--teal)} .f-tealsoft{fill:var(--teal-soft)} .f-amber{fill:var(--amber)} .f-ambersoft{fill:var(--amber-soft)}
+.f-rose{fill:var(--rose)} .f-rosesoft{fill:var(--rose-soft)} .f-paper{fill:var(--paper)} .f-ink{fill:var(--ink)} .f-sub{fill:var(--sub)}
+.s-teal{stroke:var(--teal)} .s-line{stroke:var(--line)} .s-rose{stroke:var(--rose)} .s-amber{stroke:var(--amber)} .s-sub{stroke:var(--sub)}
+
+header{padding:8px 4px 20px}
+header .who{font-size:14px;color:var(--sub);margin-bottom:4px}
+header h1{font-size:24px}
+header .date{margin-top:8px;font-size:14px;color:var(--sub)}
+
+section{background:var(--paper);border-radius:18px;padding:22px 18px;margin-top:16px;border:1px solid var(--line)}
+section h2{font-size:19px;margin-bottom:14px;padding-left:12px;border-left:5px solid var(--teal)}
+.lead{font-size:15px;color:var(--sub)}
+
+/* 期限パネル */
+.deadline{background:var(--amber-soft);border:2px solid var(--amber);text-align:center;padding:24px 18px}
+.deadline .lbl{font-family:"Zen Maru Gothic",sans-serif;font-weight:700;color:var(--amber);font-size:15px}
+.deadline .day{font-family:"Zen Maru Gothic",sans-serif;font-weight:700;font-size:56px;line-height:1.1;color:var(--ink);margin:6px 0}
+.deadline .day small{font-size:22px}
+.deadline .count{display:inline-block;background:var(--paper);border-radius:999px;padding:4px 16px;font-size:14px;margin-bottom:12px}
+.deadline p{text-align:left;margin:0}
+
+/* 病名比較 */
+.vs{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.vs div{border-radius:14px;padding:14px 10px;text-align:center}
+.vs .ng{background:var(--rose-soft)} .vs .ok{background:var(--teal-soft)}
+.vs .nm{font-family:"Zen Maru Gothic",sans-serif;font-weight:700;font-size:17px}
+.vs .tag{display:inline-block;margin-top:8px;font-size:13px;font-weight:700;border-radius:999px;padding:2px 12px;color:var(--paper)}
+.vs .ng .tag{background:var(--rose)} .vs .ok .tag{background:var(--teal)}
+
+/* 今の病院 */
+.facts{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.fact{background:var(--bg);border-radius:12px;padding:12px;font-size:14px;line-height:1.6}
+.fact svg{width:40px;margin-bottom:6px}
+
+/* 転院のメリット */
+.merits{list-style:none;margin:0;padding:0}
+.merits li{display:flex;gap:12px;align-items:flex-start;padding:10px 0;border-top:1px dashed var(--line)}
+.merits li:first-child{border-top:none}
+.merits svg{width:44px;flex:none}
+
+/* タイムライン */
+.tl{list-style:none;margin:0;padding:0;position:relative}
+.tl::before{content:"";position:absolute;left:19px;top:8px;bottom:8px;width:3px;background:var(--teal-soft)}
+.tl li{position:relative;padding:0 0 18px 54px}
+.tl li:last-child{padding-bottom:0}
+.tl .n{position:absolute;left:0;top:0;width:40px;height:40px;border-radius:50%;background:var(--teal);color:var(--paper);
+  font-family:"Zen Maru Gothic",sans-serif;font-weight:700;display:flex;align-items:center;justify-content:center;font-size:17px}
+.tl .goal .n{background:var(--amber)}
+.tl .when{font-size:13px;color:var(--sub)}
+.tl .what{font-weight:700}
+.tl .memo{font-size:14px;color:var(--sub);margin-top:2px}
+
+/* Q&A */
+.qa{margin:0}
+.qa dt{font-weight:700;display:flex;gap:8px;margin-top:16px}
+.qa dt:first-child{margin-top:0}
+.qa dt::before{content:"Q";flex:none;width:26px;height:26px;border-radius:50%;background:var(--amber);color:var(--paper);
+  font-size:14px;display:flex;align-items:center;justify-content:center}
+.qa dd{margin:6px 0 0 34px;font-size:15px}
+
+/* 伝え方 */
+.say{display:grid;gap:10px}
+.bubble{border-radius:16px;padding:14px 16px;position:relative}
+.bubble.x{background:var(--rose-soft)} .bubble.o{background:var(--teal-soft)}
+.bubble .mk{font-family:"Zen Maru Gothic",sans-serif;font-weight:700;font-size:14px;margin-bottom:4px}
+.bubble.x .mk{color:var(--rose)} .bubble.o .mk{color:var(--teal)}
+.bubble q{font-family:"Zen Maru Gothic",sans-serif;font-weight:700;font-size:17px;quotes:"「" "」"}
+
+.note{font-size:14px;color:var(--sub);margin-top:10px}
+
+footer{margin-top:24px;text-align:center;font-size:14px;color:var(--sub);line-height:1.9}
+footer b{color:var(--ink);font-size:16px}
+footer a{color:var(--teal)}
+a:focus-visible{outline:3px solid var(--amber);outline-offset:2px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="who">望月 麻衣 様</div>
+  <h1>10月5日のご相談のまとめ</h1>
+  <div class="date">2回目のお電話（ご主人様もご同席）／障害年金</div>
+</header>
+
+<section class="deadline" aria-label="いちばん大事な日">
+  <div class="lbl">いちばん大事な日</div>
+  <div class="day">11月20日<small>（金）</small></div>
+  <div class="count" id="count">あと約6週間</div>
+  <p>この日までに、<b>新しいクリニックで受診</b>しておくことが目標です。できれば2回、可能なら3回通えると安心です。</p>
+</section>
+
+<section>
+  <h2>今日いちばんの収穫：病名</h2>
+  <div class="vs">
+    <div class="ng">
+      <div class="nm">強迫性障害</div>
+      <div class="tag">原則 対象外</div>
+    </div>
+    <div class="ok">
+      <div class="nm">持続性気分障害</div>
+      <div class="tag">対象になります</div>
+    </div>
+  </div>
+  <p style="margin-top:14px">先生のお話では、強迫性障害よりも「うつ」に近い症状がメインとのこと。診断書には<b>「持続性気分障害」</b>と書く見込みです。これで障害年金を請求できる見通しが立ちました。</p>
+  <p class="note">前回心配していた「強迫性障害が前に出てしまう」点は、これでクリアできそうです。</p>
+</section>
+
+<section>
+  <h2>今の病院で言われたこと</h2>
+  <div class="facts">
+    <div class="fact">
+      <svg viewBox="0 0 40 40" aria-hidden="true"><rect x="5" y="8" width="30" height="27" rx="4" class="f-tealsoft"/><rect x="5" y="8" width="30" height="8" rx="3" class="f-teal"/><circle cx="14" cy="25" r="3" class="f-teal"/><circle cx="26" cy="25" r="3" class="f-teal"/></svg>
+      先生がいるのは<b>月曜と木曜だけ</b>
+    </div>
+    <div class="fact">
+      <svg viewBox="0 0 40 40" aria-hidden="true"><rect x="9" y="5" width="22" height="30" rx="3" class="f-rosesoft"/><line x1="13" y1="13" x2="27" y2="13" class="s-rose" stroke-width="2"/><line x1="13" y1="19" x2="27" y2="19" class="s-rose" stroke-width="2"/><line x1="6" y1="34" x2="34" y2="6" class="s-rose" stroke-width="3" stroke-linecap="round"/></svg>
+      薬を飲み始めて<b>半年たたないと診断書は書けない</b>
+    </div>
+    <div class="fact">
+      <svg viewBox="0 0 40 40" aria-hidden="true"><path d="M6 22 L20 10 L34 22 V34 H6 Z" class="f-tealsoft"/><rect x="17" y="24" width="6" height="10" class="f-teal"/><path d="M26 6 l6 4 -6 4" fill="none" class="s-amber" stroke-width="2.5" stroke-linecap="round"/></svg>
+      平日いつでも通える<b>クリニックへの転院</b>を勧められた
+    </div>
+    <div class="fact">
+      <svg viewBox="0 0 40 40" aria-hidden="true"><rect x="7" y="9" width="26" height="22" rx="3" class="f-ambersoft"/><path d="M7 11 L20 21 L33 11" fill="none" class="s-amber" stroke-width="2"/></svg>
+      紹介状は<b>転院先の予約日が決まってから</b>出す
+    </div>
+  </div>
+  <p class="note">今の病院の次回予約は11月2日です。</p>
+</section>
+
+<section>
+  <h2>転院をおすすめする理由</h2>
+  <ul class="merits">
+    <li>
+      <svg viewBox="0 0 44 44" aria-hidden="true"><circle cx="22" cy="22" r="18" class="f-tealsoft"/><path d="M22 11 V22 L30 26" fill="none" class="s-teal" stroke-width="3" stroke-linecap="round"/></svg>
+      <div><b>早く診断書を書いてもらえる可能性が高い</b><br>半年待たずに請求でき、受け取り始めも早くなります。</div>
+    </li>
+    <li>
+      <svg viewBox="0 0 44 44" aria-hidden="true"><circle cx="22" cy="22" r="18" class="f-tealsoft"/><path d="M14 23 l6 6 l11 -13" fill="none" class="s-teal" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <div><b>通院のストレスが少ない</b><br>以前診てくださった先生が開業されたクリニックなら、安心して通えます。</div>
+    </li>
+    <li>
+      <svg viewBox="0 0 44 44" aria-hidden="true"><circle cx="22" cy="22" r="18" class="f-tealsoft"/><path d="M13 20 a9 9 0 0 1 16 -4 M31 24 a9 9 0 0 1 -16 4" fill="none" class="s-teal" stroke-width="3" stroke-linecap="round"/><path d="M29 11 v6 h-6 M15 33 v-6 h6" fill="none" class="s-teal" stroke-width="3" stroke-linecap="round"/></svg>
+      <div><b>将来の更新手続きもスムーズ</b><br>障害年金は数年ごとに診断書を出し直します。同じ先生に続けて書いてもらえると安心です。</div>
+    </li>
+  </ul>
+</section>
+
+<section>
+  <h2>11月20日までの流れ</h2>
+  <ol class="tl">
+    <li>
+      <span class="n">1</span>
+      <div class="when">10月6日（火）朝いちばん</div>
+      <div class="what">新しいクリニックに予約の電話</div>
+      <div class="memo">以前の先生が開業されたクリニックが第一希望</div>
+    </li>
+    <li>
+      <span class="n">2</span>
+      <div class="when">予約日が決まったら</div>
+      <div class="what">今の病院に伝えて、紹介状をもらう</div>
+      <div class="memo">遅くとも11月2日の受診のときに</div>
+    </li>
+    <li>
+      <span class="n">3</span>
+      <div class="when">なるべく早く</div>
+      <div class="what">新しいクリニックで1回目の受診</div>
+      <div class="memo">紹介状とお薬手帳を持っていきましょう</div>
+    </li>
+    <li>
+      <span class="n">4</span>
+      <div class="when">11月20日まで</div>
+      <div class="what">2回目（できれば3回目）の受診</div>
+      <div class="memo">1回だけだと「まだ判断できない」と言われることがあります</div>
+    </li>
+    <li class="goal">
+      <span class="n">5</span>
+      <div class="when">受診がそろったら</div>
+      <div class="what">「11月20日以前の状態」で診断書をお願いする</div>
+      <div class="memo">診断書ができあがるのが11月20日を過ぎても大丈夫です</div>
+    </li>
+  </ol>
+  <p class="note">進むたびに、今日のようにLINEかお電話でお知らせください。</p>
+</section>
+
+<section>
+  <h2>もし11月20日に間に合わなかったら</h2>
+  <svg viewBox="0 0 600 300" role="img" aria-label="11月20日までに受診できた場合とできなかった場合の道すじ">
+    <rect x="200" y="6" width="200" height="50" rx="25" class="f-amber"/>
+    <text x="300" y="38" text-anchor="middle" font-size="20" font-weight="700" class="f-paper">11月20日までに受診</text>
+    <path d="M250 56 C200 90 150 90 150 120" fill="none" class="s-teal" stroke-width="3"/>
+    <path d="M350 56 C400 90 450 90 450 120" fill="none" class="s-rose" stroke-width="3" stroke-dasharray="6 5"/>
+    <text x="175" y="98" text-anchor="end" font-size="16" font-weight="700" class="f-teal">できた</text>
+    <text x="425" y="98" font-size="16" font-weight="700" class="f-rose">できなかった</text>
+    <rect x="20" y="122" width="260" height="168" rx="16" class="f-tealsoft"/>
+    <text x="150" y="156" text-anchor="middle" font-size="19" font-weight="700" class="f-teal">ベストの形</text>
+    <text x="150" y="190" text-anchor="middle" font-size="15" class="f-ink">新しいクリニックで</text>
+    <text x="150" y="214" text-anchor="middle" font-size="15" class="f-ink">診断書を書いてもらい</text>
+    <text x="150" y="238" text-anchor="middle" font-size="15" class="f-ink">この時期までさかのぼって</text>
+    <text x="150" y="262" text-anchor="middle" font-size="15" class="f-ink">請求できます</text>
+    <rect x="320" y="122" width="260" height="168" rx="16" class="f-rosesoft"/>
+    <text x="450" y="156" text-anchor="middle" font-size="19" font-weight="700" class="f-rose">それでも道はあります</text>
+    <text x="450" y="190" text-anchor="middle" font-size="15" class="f-ink">今日（10月5日）の受診日を</text>
+    <text x="450" y="214" text-anchor="middle" font-size="15" class="f-ink">使う方法があります</text>
+    <text x="450" y="238" text-anchor="middle" font-size="15" class="f-ink">ただし今の病院に</text>
+    <text x="450" y="262" text-anchor="middle" font-size="15" class="f-ink">書いてもらう必要があります</text>
+  </svg>
+  <p style="margin-top:12px">今の病院は「半年たたないと書けない」とのことなので、こちらは時間がかかりそうです。だからこそ<b>新しいクリニックで11月20日までに受診</b>するのがいちばんです。</p>
+  <p class="note">診断書がそろえば、手続きが来年以降になっても、この時期までさかのぼって請求できます。ただ、年金は5年たつと古い月の分から受け取れなくなっていくので、早いほど安心です。</p>
+</section>
+
+<section>
+  <h2>お電話でいただいたご質問</h2>
+  <dl class="qa">
+    <dt>薬が11月5日分まで残っていますが、その間に別の病院へ行ってもいいですか？</dt>
+    <dd>大丈夫です。薬がなくなるのを待つと時間が過ぎてしまいます。お薬手帳を見せて「今この薬を飲んでいます」と伝えて受診してください。</dd>
+    <dt>診断書は何回目の受診で書いてもらえますか？</dt>
+    <dd>2〜3回通ってから書いてもらうことが多いです。</dd>
+    <dt>強迫性障害も一緒についたほうがいいですか？</dt>
+    <dd>いいえ。強迫性障害は原則として対象外なので、前に出ないほうが申請にはむしろ良いです。持続性気分障害は、うつ病とは病名の分類は違いますが、同じ「気分障害」のグループで対象になります。</dd>
+    <dt>病名が変わると、等級が低くなりますか？</dt>
+    <dd>なりません。等級は病名ではなく、生活や仕事にどれだけ支障があるかで決まります。</dd>
+  </dl>
+  <svg viewBox="0 0 600 150" role="img" aria-label="等級の目安。2級は日常生活に著しい支障、3級は働けるが仕事に支障" style="margin-top:16px">
+    <rect x="10" y="10" width="285" height="130" rx="16" class="f-tealsoft"/>
+    <text x="152" y="52" text-anchor="middle" font-size="28" font-weight="700" class="f-teal">2級</text>
+    <text x="152" y="88" text-anchor="middle" font-size="16" class="f-ink">日常生活に</text>
+    <text x="152" y="112" text-anchor="middle" font-size="16" class="f-ink">著しい支障がある</text>
+    <rect x="305" y="10" width="285" height="130" rx="16" class="f-ambersoft"/>
+    <text x="447" y="52" text-anchor="middle" font-size="28" font-weight="700" class="f-amber">3級</text>
+    <text x="447" y="88" text-anchor="middle" font-size="16" class="f-ink">働けるけれど</text>
+    <text x="447" y="112" text-anchor="middle" font-size="16" class="f-ink">仕事に支障がある</text>
+  </svg>
+</section>
+
+<section>
+  <h2>診察のときの伝え方</h2>
+  <div class="say">
+    <div class="bubble x">
+      <div class="mk">これだけだと…</div>
+      <q>元気です、薬が効いています</q>
+      <p style="margin:6px 0 0;font-size:14px">困りごとがないと受け取られ、年金から遠ざかってしまいます。</p>
+    </div>
+    <div class="bubble o">
+      <div class="mk">ありのままに</div>
+      <q>こういうことができなくて困っています</q>
+      <p style="margin:6px 0 0;font-size:14px">障害年金は、生活の中で困っていることに対して支給されます。不調や困りごとを、小さく言わずにそのまま伝えてください。</p>
+    </div>
+  </div>
+  <p class="note">前回お話しした入浴や洗濯、家事、外出、お金の管理などの困りごとも、具体的に伝えると先生に伝わりやすくなります。</p>
+</section>
+
+<footer>
+  分からないことは、どんな小さなことでもご連絡ください。<br>
+  しばらくは密に連絡を取り合いながら進めていきましょう。<br><br>
+  <b>静岡障害年金サポートきぼう</b><br>
+  社会保険労務士法人キャリアデザイン<br>
+  社会保険労務士　杉山 史和<br>
+  電話　<a href="tel:0559609323">055-960-9323</a><br>
+  ご連絡はLINEでも承ります。
+</footer>
+
+</div>
+<script>
+(function(){
+  try{
+    var el=document.getElementById('count');
+    var now=new Date(); var t=new Date(2026,10,20);
+    var d=Math.ceil((t-new Date(now.getFullYear(),now.getMonth(),now.getDate()))/86400000);
+    if(d>0){el.textContent='あと '+d+' 日';}
+    else if(d===0){el.textContent='今日がその日です';}
+    else{el.style.display='none';}
+  }catch(e){}
+})();
+</script>
+</body>
+</html>
